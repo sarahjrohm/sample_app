@@ -14,7 +14,13 @@ end
 group :test do
   gem 'rspec', '2.5.0'
   gem 'webrat', '0.7.1'
+  gem 'autotest-fsevent',   '0.2.4'
+  gem 'autotest-growl',    '0.2.9'
+  gem 'autotest-standalone'
+  gem 'spork', '0.9.0.rc5'
 end
+
+
 
 # Use unicorn as the web server
 # gem 'unicorn'
